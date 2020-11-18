@@ -556,7 +556,9 @@ func uiSelectElement(index int) string {
 	if err != nil {
 		frontendLog(err)
 	}
-	req.Header.Set("User-Agent", settings.UserAgents[0])
+	if len(settings.UserAgents) > 0 {
+		req.Header.Set("User-Agent", settings.UserAgents[0])
+	}
 	resp, err := client.Do(req)
 	var html []byte
 	if err == nil {
