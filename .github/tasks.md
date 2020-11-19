@@ -1,4 +1,6 @@
 - [ ] If there is Captcha on the page, than use (Google Cloud Vision API, Google Cloud Speech API) to solve it.
 - [ ] Fix the bugs for export to xml, csv, json
 - [ ] Support Screenshots, If the user says true on a screenshot element than take a screenshot.
-- [ ] Fix all of the bugs that come along with this :)
+- [ ] Make sure the output file is in GUI
+- [ ] also on the image selector, can we add a checkbox or something that says to download the image and if the user chooses yes, than we download the images
+- [ ] also on the selector can we make it an option to the selector and than if they don't they use the normal website, this is so u can go though multiple pages (Also they can choose multiple elements.)
