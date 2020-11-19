@@ -63,7 +63,7 @@ Should i manually try and change the `sitemap.json` file?
 - No, You should not.
 
 How can i open the GUI again?
-- `"Gui": true`
+- `"Gui": true` ***Google Chrome (Required)***
 
 ---
 ### Concurrency
